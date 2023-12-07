@@ -1,3 +1,5 @@
+# source from ../polls_first_yugyengjo.py
+
 list_question = [
     "상품의 품질에 대해 어떻게 생각하시나요?"
     ,"상품의 가격에 대해 어떻게 생각하시나요?"
