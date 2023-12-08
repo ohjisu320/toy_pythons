@@ -16,10 +16,7 @@ examples_list = [
 answer = [2, 1, 1, 2]
 
 
-for count in questions_list
-    print("{}. {}".format(count, ))
-
-for answer_01 in questions_list:
-    print(examples_list)
-    
+for count in [0, 1, 2, 3] :
+    print("{}. {}".format(count+1,questions_list[count]))
+    print("{}".format(examples_list[count]))
 
