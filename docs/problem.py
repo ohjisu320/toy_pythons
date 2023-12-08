@@ -15,8 +15,11 @@ examples_list = [
 
 answer = [2, 1, 1, 2]
 
-for answer_01 in []:
-    print(questions_list[])
+
+for count in questions_list
+    print("{}. {}".format(count, ))
+
+for answer_01 in questions_list:
     print(examples_list)
-    print("정답 : {}".format([answer_01]))
     
+
