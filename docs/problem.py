@@ -14,12 +14,13 @@ examples_list = [
             ]
 
 answer = [2, 1, 1, 2]
+answer_list=[0, 0, 0, 0]
 
+for count in [0, 1, 2, 3] :
+    print("{}. {}".format(count+1,questions_list[count]))
+    print("{}".format(examples_list[count]))
+    answer_list[count]=input("-정답 : ")
+    answer_list[count]=int(answer_list[count])
 
-for count in questions_list
-    print("{}. {}".format(count, ))
-
-for answer_01 in questions_list:
-    print(examples_list)
+print(answer_list)
     
-
